@@ -1,0 +1,53 @@
+.auth-page {
+	text-align: center;
+	margin-top: 2rem;
+	font-family: "Press Start 2P", cursive;
+	max-width: 400px;
+	margin: 0 auto;
+	padding: 2rem;
+	background-color: #1a1a2e;
+	border-radius: 8px;
+	box-shadow: 0 0 20px rgba(46, 204, 113, 0.3);
+}
+
+.auth-page h2 {
+	color: #2ecc71;
+	margin-bottom: 2rem;
+	text-shadow: 0 0 5px rgba(46, 204, 113, 0.5);
+}
+
+.button-row {
+	display: flex;
+	gap: 1rem;
+	justify-content: center;
+	margin-bottom: 2rem;
+}
+
+.toggle-button {
+	padding: 0.75rem 1.5rem;
+	border: 2px solid #2ecc71;
+	border-radius: 4px;
+	cursor: pointer;
+	background-color: transparent;
+	color: #2ecc71;
+	font-family: "Press Start 2P", cursive;
+	transition: all 0.3s ease;
+	font-size: 0.8rem;
+}
+
+.toggle-button:hover {
+	background-color: rgba(46, 204, 113, 0.1);
+}
+
+.toggle-button.active {
+	background-color: #2ecc71;
+	color: #111;
+	box-shadow: 0 0 10px rgba(46, 204, 113, 0.7);
+}
+
+.auth-container {
+	background-color: #16213e;
+	padding: 2rem;
+	border-radius: 8px;
+	border: 1px solid #2ecc71;
+}

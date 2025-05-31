@@ -1,0 +1,53 @@
+.register-form {
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+}
+
+.register-form label {
+	display: block;
+	margin-bottom: 0.5rem;
+	color: #2ecc71;
+	font-size: 0.8rem;
+}
+
+.register-form input {
+	padding: 0.75rem;
+	border: 2px solid #2ecc71;
+	border-radius: 4px;
+	background-color: rgba(0, 0, 0, 0.3);
+	color: white;
+	font-family: "Press Start 2P", cursive;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.register-form input:focus {
+	outline: none;
+	border-color: #e74c3c;
+	box-shadow: 0 0 10px rgba(231, 76, 60, 0.5);
+}
+
+.register-form button {
+	padding: 0.75rem;
+	background-color: #e74c3c;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-family: "Press Start 2P", cursive;
+	font-size: 0.9rem;
+	transition: all 0.3s ease;
+	margin-top: 1rem;
+	text-transform: uppercase;
+}
+
+.register-form button:hover {
+	background-color: #c0392b;
+	box-shadow: 0 0 15px rgba(231, 76, 60, 0.7);
+	transform: translateY(-2px);
+}
+
+.register-form button:active {
+	transform: translateY(0);
+}
