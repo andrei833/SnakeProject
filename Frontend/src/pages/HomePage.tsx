@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import Game from "../components/Game/Game";
 
 type User = { username: string };
 
@@ -21,7 +22,9 @@ const HomePage = () => {
 	}
 	return (
 		<>
-			<h1>Welcome, {user.username}!</h1>
+			<h1>
+				Welcome, {user.username}!<Game></Game>
+			</h1>
 		</>
 	);
 };

@@ -1,4 +1,4 @@
-package io.github.andrei833.SnakeGame.repo;
+package io.github.andrei833.SnakeGame.repository;
 
 import io.github.andrei833.SnakeGame.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;

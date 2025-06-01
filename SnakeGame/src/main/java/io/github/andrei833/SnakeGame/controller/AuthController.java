@@ -1,7 +1,7 @@
-package io.github.andrei833.SnakeGame.ctrl;
+package io.github.andrei833.SnakeGame.controller;
 
 import io.github.andrei833.SnakeGame.model.User;
-import io.github.andrei833.SnakeGame.repo.UserRepository;
+import io.github.andrei833.SnakeGame.repository.UserRepository;
 import jakarta.servlet.http.HttpServletRequest;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;

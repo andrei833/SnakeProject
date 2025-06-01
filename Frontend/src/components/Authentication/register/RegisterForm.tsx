@@ -45,7 +45,7 @@ export default function RegisterForm() {
 		})
 			.then((res) => {
 				if (res.status === 200) {
-					navigate("/"); // Redirect to login page after successful registration
+					navigate("/");
 				} else if (res.status === 409) {
 					return res.text().then(setServerMessage); // Username already exists
 				} else {

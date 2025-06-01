@@ -23,8 +23,7 @@ export default function ProtectedRoute({ children }: ProtectedRouteProps) {
 				}
 			})
 			.catch(() => {
-				// Server is likely down or unreachable
-				setIsAuthenticated(null); // Keep loading state or set a new state for server error
+				setIsAuthenticated(null);
 			});
 	}, [navigate]);
 

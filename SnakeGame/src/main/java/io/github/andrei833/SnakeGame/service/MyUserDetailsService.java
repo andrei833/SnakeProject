@@ -1,6 +1,6 @@
 package io.github.andrei833.SnakeGame.service;
 
-import io.github.andrei833.SnakeGame.repo.UserRepository;
+import io.github.andrei833.SnakeGame.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
