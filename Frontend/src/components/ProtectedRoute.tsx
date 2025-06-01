@@ -23,12 +23,13 @@ export default function ProtectedRoute({ children }: ProtectedRouteProps) {
 				}
 			})
 			.catch(() => {
-				setIsAuthenticated(false);
-				navigate("/auth", { replace: true });
+				// Server is likely down or unreachable
+				setIsAuthenticated(null); // Keep loading state or set a new state for server error
 			});
 	}, [navigate]);
 
-	if (isAuthenticated === null) return <div>Loading...</div>;
+	if (isAuthenticated === null)
+		return <div>Loading... (or server is unreachable)</div>;
 
 	if (!isAuthenticated) return null;
 
